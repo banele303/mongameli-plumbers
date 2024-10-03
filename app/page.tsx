@@ -7,6 +7,7 @@ import AllServices from "./components/ui/all-services";
 import Testimonials from "./components/ui/testimonial-section";
 import ContactForm from "./components/ui/contact-us";
 import Footer from "./components/ui/footer";
+import AboutUs from "./about-us/about-us-main";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <HomeHero/>
       <SecondSection/>
       <ContactCTA/>
+      <AboutUs/>
       <AllServices/>
       <Testimonials/>
       <ContactForm/>

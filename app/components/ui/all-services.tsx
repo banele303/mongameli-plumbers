@@ -4,11 +4,15 @@ import Link from "next/link";
 
 const services = [
     {
-        icon: "/img1.webp",
-        title: "COCKROACHES",
+        icon: "/toilet.jpg",
+        title: "Toilet Repair",
     },
     {
-        icon: "/plumbing.webp",
+        icon: "/pipes.jpg",
+        title: "plumber",
+    },
+    {
+        icon: "/geyser8.jpg",
         title: "plumber",
     },
     {
@@ -16,7 +20,15 @@ const services = [
         title: "geyser",
     },
     {
-        icon: "/img2.jpg",
+        icon: "/toilet3.jpg",
+        title: "dont know",
+    },
+    {
+        icon: "/img4.jpg",
+        title: "dont know",
+    },
+    {
+        icon: "/pipe3.jpg",
         title: "dont know",
     },
 
@@ -46,7 +58,7 @@ const AllServices = () => {
                             className="object-contain rounded-md bg-gray-100 p-4 w-full"
                             alt="image"
                         />
-                        <h1 className="text-xl font-medium">{service.title}</h1>
+                       
 
                     </div>
                 ))}
