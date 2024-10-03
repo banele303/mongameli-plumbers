@@ -19,7 +19,7 @@ export default function Footer() {
                             <li><Link href="/" className="hover:text-blue-400">Home</Link></li>
                             <li><Link href="#about" className="hover:text-blue-400">About</Link></li>
                             <li><Link href="#services" className="hover:text-blue-400">Services</Link></li>
-                            <li><Link href="#projects" className="hover:text-blue-400">Projects</Link></li>
+                           
                             <li><Link href="#contact" className="hover:text-blue-400">Contact</Link></li>
                         </ul>
                     </div>
@@ -34,10 +34,11 @@ export default function Footer() {
                         <p>Email: info@mongameliplumbing.co.za</p>
                     </div>
                 </div>
-                <div className="mt-8 text-center">
+               
+            </div>
+            <div className="mt-8 text-center">
                     <p>&copy; 2024 Alex SouthFLow Marketing. All rights reserved.</p>
                 </div>
-            </div>
         </footer>
 
     )
