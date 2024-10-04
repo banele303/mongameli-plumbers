@@ -2,7 +2,7 @@
 import { cn } from "@/lib/utils";
 import GridPattern from "@/components/ui/grid-pattern";
 import Image from "next/image"
-import Link from "next/link"
+
 
 
 export default function SecondSection() {
@@ -26,7 +26,7 @@ export default function SecondSection() {
                         className="
            text-[16px]  my-6 md:my-10  text-bold text-gray-500"
                     >
-                        With years of experience and a commitment to excellence, we're here to solve all your plumbing needs.
+                        With years of experience and a commitment to excellence, we&apos;re here to solve all your plumbing needs.
                         <br />
                         <br />
 

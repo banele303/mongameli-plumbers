@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+
 
 
 const services = [
@@ -58,24 +58,24 @@ const AllServices = () => {
                             className="object-contain rounded-md bg-gray-100 p-4 w-full"
                             alt="image"
                         />
-                       
+
 
                     </div>
                 ))}
             </div>
 
-           <div className="items-center px-[2rem] md:px-[4rem] pt-[3rem]">
-           <h3 className="text-2xl font-semibold text-gray-800 mb-4">Serving South Africa Since 2005</h3>
-            <p className="text-gray-600 mb-4">
-              Mongameli Plumbing was founded with a vision to provide top-quality plumbing services to homes and businesses across South Africa. Our journey began in a small workshop in Johannesburg, fueled by passion and dedication to the craft of plumbing.
-            </p>
-            <p className="text-gray-600 mb-4">
-              Over the years, we&apos;ve grown from a local operation to a trusted name in the industry, serving clients in major cities and rural areas alike. Our commitment to excellence, integrity, and customer satisfaction has been the cornerstone of our success.
-            </p>
-            <p className="text-gray-600">
-              Today, we&apos;re proud to be one of the leading plumbing companies in South Africa, with a team of skilled professionals ready to tackle any plumbing challenge. Our story is one of growth, learning, and unwavering commitment to our craft and our customers.
-            </p>
-           </div>
+            <div className="items-center px-[2rem] md:px-[4rem] pt-[3rem]">
+                <h3 className="text-2xl font-semibold text-gray-800 mb-4">Serving South Africa Since 2005</h3>
+                <p className="text-gray-600 mb-4">
+                    Mongameli Plumbing was founded with a vision to provide top-quality plumbing services to homes and businesses across South Africa. Our journey began in a small workshop in Johannesburg, fueled by passion and dedication to the craft of plumbing.
+                </p>
+                <p className="text-gray-600 mb-4">
+                    Over the years, we&apos;ve grown from a local operation to a trusted name in the industry, serving clients in major cities and rural areas alike. Our commitment to excellence, integrity, and customer satisfaction has been the cornerstone of our success.
+                </p>
+                <p className="text-gray-600">
+                    Today, we&apos;re proud to be one of the leading plumbing companies in South Africa, with a team of skilled professionals ready to tackle any plumbing challenge. Our story is one of growth, learning, and unwavering commitment to our craft and our customers.
+                </p>
+            </div>
 
         </section>
     );

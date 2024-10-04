@@ -111,7 +111,7 @@ export default function AboutUs() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-800">Sewer Line Services</h3>
                 <p className="text-gray-600 mt-2">
-                  Cleaning, repair, and replacement of sewer lines to keep your home's waste system functioning properly.
+                  Cleaning, repair, and replacement of sewer lines to keep your home&apos;s waste system functioning properly.
                 </p>
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function AboutUs() {
         <section className="bg-blue-600 text-white rounded-lg p-12 text-center space-y-6">
           <h2 className="text-3xl font-semibold">Ready to Experience Top-Notch Plumbing Service?</h2>
           <p className="text-xl">
-            Whether it's a small repair or a major installation, we're here to help. Contact us today!
+            Whether it&apos;s a small repair or a major installation, we&apos;re here to help. Contact us today!
           </p>
           <Button asChild variant="secondary" size="lg">
             <Link href="/contact">Get in Touch</Link>
