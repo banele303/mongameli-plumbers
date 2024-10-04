@@ -1,7 +1,14 @@
 {
-  "compilerOptions": {
+ "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
+
+
+    "target": "es5",
+ 
+    "forceConsistentCasingInFileNames": true,
+
+
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
